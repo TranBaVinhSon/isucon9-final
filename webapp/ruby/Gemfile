@@ -4,6 +4,7 @@ gem 'puma'
 gem 'sinatra'
 gem 'mysql2'
 gem 'mysql2-cs-bind'
+gem "rack-timeout", require: "rack/timeout/base"
 
 group :development do
   gem 'sinatra-contrib'
